@@ -332,8 +332,8 @@ video {
 }
 
 /*-- Privacy Policy pages  -----------------------------------*/
-#privacy-page-hero {
-    background-color: #fff;
+.policy-card>* {
+    margin-top: 1rem;
 }
 
 #privacy-page-hero>.privacy-page-text-wrapper:first-child h2:first-child {
@@ -353,6 +353,11 @@ video {
 .privacy-page-text-wrapper a:hover {
     border-bottom: 3px solid var(--cl-black);
     transition-delay: 100ms;
+}
+
+.policy-card {
+    width: 80%;
+    margin: 0 auto;
 }
 
 
